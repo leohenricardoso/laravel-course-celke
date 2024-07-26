@@ -18,4 +18,6 @@ class Bill extends Model
     */
     protected $fillable = ['name', 'bill_value', 'due_date'];
 
+    protected $hidden = ['created_at', 'updated_at'];
+
 }
